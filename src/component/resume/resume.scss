@@ -1,0 +1,34 @@
+.resume-container {
+  color: #444;
+  font-size: 16px;
+  min-height: calc(100vh - 56px);
+  position: relative;
+}
+
+.resume-container-title {
+  margin-left: 40px;
+  text-align: left;
+}
+
+.resume-container::before {
+  background-color: #212529;
+  content: '';
+  height: 100%;
+  left: 175px;
+  position: absolute;
+  width: 1px;
+}
+
+@media only screen and (max-width: 1060px) {
+  .resume-container {
+    height: unset;
+
+    &::before {
+      left: 50px;
+    }
+  }
+
+  .resume-container-title {
+    padding-left: 50px;
+  }
+}

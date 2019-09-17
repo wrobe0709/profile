@@ -1,0 +1,34 @@
+{
+  "theHolsteinHouse": {
+    "title": "The Holstein House",
+    "description": "Website for small family business.",
+    "imgUrl": "/img/barn.jpg",
+    "githubUrl": "https://github.com/wrobe0709/holstein",
+    "externalLinkUrl": "https://www.theholsteinhouse.com/",
+    "technologies": ["React", "Bootstrap", "Ansible"]
+  },
+  "profile": {
+    "title": "Profile",
+    "description": "Profile site.",
+    "imgUrl": "/img/profile.jpg",
+    "githubUrl": "",
+    "externalLinkUrl": "",
+    "technologies": ["React", "Bootstrap", "Ansible"]
+  },
+  "paperFlowers": {
+    "title": "Paper flowers",
+    "description": "Website for an online business.",
+    "imgUrl": "/img/paper-flowers.jpg",
+    "githubUrl": "",
+    "externalLinkUrl": "",
+    "technologies": ["Python", "PostgreSQL", "React", "Bootstrap", "Ansible"]
+  },
+  "pedalPi": {
+    "title": "Pedal Pi",
+    "description": "Program your own guitar effects.",
+    "imgUrl": "/img/pedal-pi.jpg",
+    "githubUrl": "",
+    "externalLinkUrl": "",
+    "technologies": ["C", "Raspberry Pi"]
+  }
+}

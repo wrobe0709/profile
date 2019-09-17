@@ -1,0 +1,37 @@
+{
+  "softwareEngineer": {
+    "title": "Software Engineer",
+    "technologies": ["Angular", "JavaScript", "HTML", "CSS", "Python", "Linux"],
+    "yearStart": "2016",
+    "yearEnd": "Present",
+    "description": [
+      "Building an Angular application to replace a legacy Java GUI.",
+      "Design scable components and services that are easily re-used.",
+      "Utilize RxJS to effeciently handle HTTP requests and responses.",
+      "Ensure quality by writing unit and end-to-end tests."
+    ]
+  },
+  "dataAnalyst": {
+    "title": "Data Analyst",
+    "technologies": ["Python", "Linux", "PostgreSQL"],
+    "yearStart": "2014",
+    "yearEnd": "2016",
+    "description": [
+      "Researched and reported on financial data using Python, MySQL, and PostgreSQL.",
+      "Scraped data from online sources with Python.",
+      "Developed complex queries to access and join necessary data points.",
+      "Worked with product owners to deliver data requests to customers, journalists, and executives."
+    ]
+  },
+  "accountManager": {
+    "title": "Account Manager",
+    "technologies": ["Linux", "PostgreSQL"],
+    "yearStart": "2013",
+    "yearEnd": "2014",
+    "description": [
+      "Supported technical and non-technial customers.",
+      "Solved issues with Tomcat, MySQL, Linux, and more.",
+      "Maintained Mac, Windows, and Linux server environments."
+    ]
+  }
+}
