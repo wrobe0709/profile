@@ -15,7 +15,8 @@
     "react-router-bootstrap": "^0.25.0",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
-    "sass-lint": "^1.13.1"
+    "sass-lint": "^1.13.1",
+    "set-value": "2.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
