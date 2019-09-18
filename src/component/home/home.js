@@ -11,15 +11,15 @@ export default class Home extends React.Component {
           Will Robertson
         </h1>
         <div className="home-icon-row">
-          <FontAwesomeIcon icon={faAngular} className="home-icon-size" style={{color: '#b52e31'}}/>
-          <FontAwesomeIcon icon={faReact} className="home-icon-size" style={{color: '#00d8ff'}}/>
-          <FontAwesomeIcon icon={faJsSquare} className="home-icon-size" style={{color: '#f7df1e'}}/>
-          <FontAwesomeIcon icon={faHtml5} className="home-icon-size" style={{color: '#e34f26'}}/>
-          <FontAwesomeIcon icon={faCss3Alt} className="home-icon-size" style={{color: '#1272b7'}}/>
-          <FontAwesomeIcon icon={faPython} className="home-icon-size" style={{color: '#4584b6'}}/>
-          <FontAwesomeIcon icon={faLinux} className="home-icon-size" style={{color: '#333333'}}/>
+          <FontAwesomeIcon icon={faAngular} className="home-icon-size home-angular-color"/>
+          <FontAwesomeIcon icon={faReact} className="home-icon-size home-react-color"/>
+          <FontAwesomeIcon icon={faJsSquare} className="home-icon-size home-js-color"/>
+          <FontAwesomeIcon icon={faHtml5} className="home-icon-size home-html-color"/>
+          <FontAwesomeIcon icon={faCss3Alt} className="home-icon-size home-css-color"/>
+          <FontAwesomeIcon icon={faPython} className="home-icon-size home-python-color"/>
+          <FontAwesomeIcon icon={faLinux} className="home-icon-size home-linux-color"/>
           <a href="https://github.com/wrobe0709/">
-            <FontAwesomeIcon icon={faGithub} className="home-icon-size" style={{color: '#333'}}/>
+            <FontAwesomeIcon icon={faGithub} className="home-icon-size home-github-color"/>
           </a>
         </div>
       </div>

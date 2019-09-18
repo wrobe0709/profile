@@ -9,7 +9,7 @@ export default class Projects extends React.Component {
       <div id="projects" className="projects">
         <h3 className="projects-title">Projects</h3>
         <div className="projects-container">
-          <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-evenly', flexWrap: 'wrap'}}>
+          <div className="projects-row">
             <Project
               title={projects.theHolsteinHouse.title}
               description={projects.theHolsteinHouse.description}
@@ -23,7 +23,7 @@ export default class Projects extends React.Component {
               imgUrl={projects.profile.imgUrl}
               technologies={projects.profile.technologies}/>
           </div>
-          <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-evenly', flexWrap: 'wrap'}}>
+          <div className="projects-row">
             <Project
               title={projects.paperFlowers.title}
               description={projects.paperFlowers.description}
