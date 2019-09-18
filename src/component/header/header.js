@@ -8,10 +8,9 @@ export default class Header extends React.Component {
   render() {
     return (
       <Navbar bg="light" expand="sm" fixed="top" className="header-background">
-        {/* <Navbar.Brand>Will Robertson</Navbar.Brand> */}
         <Navbar.Brand>
           <Link
-            style={{padding: '0.5rem 1rem'}}
+            className="header-link"
             activeClass="active"
             to="home"
             spy={true}
@@ -19,7 +18,7 @@ export default class Header extends React.Component {
             offset={-70}
             duration={500}
           >
-            <span style={{cursor: 'pointer'}}>Home</span>
+            <span className="header-cursor-pointer">Home</span>
           </Link>
         </Navbar.Brand>
         
@@ -27,7 +26,7 @@ export default class Header extends React.Component {
         <Navbar.Collapse className="justify-content-end">
           <Nav>
             <Link
-              style={{padding: '0.5rem 1rem'}}
+              className="header-link"
               activeClass="active"
               to="resume"
               spy={true}
@@ -35,10 +34,10 @@ export default class Header extends React.Component {
               offset={-70}
               duration={500}
             >
-              <span style={{cursor: 'pointer'}}>Resume</span>
+              <span className="header-cursor-pointer">Resume</span>
             </Link>
             <Link
-              style={{padding: '0.5rem 1rem'}}
+              className="header-link"
               activeClass="active"
               to="projects"
               spy={true}
@@ -46,7 +45,7 @@ export default class Header extends React.Component {
               offset={-70}
               duration={500}
             >
-              <span style={{cursor: 'pointer'}}>Projects</span>
+              <span className="header-cursor-pointer">Projects</span>
             </Link>
           </Nav>
         </Navbar.Collapse>
