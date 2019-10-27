@@ -1,0 +1,8 @@
+###
+# Deploys the entire app for the site
+##
+- name: apply standard configuration to server
+  hosts: common
+  user: deployer
+  roles:
+    - common

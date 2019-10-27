@@ -1,0 +1,27 @@
+###
+# Updates APT package cache and installs packages
+# Enables the firewall
+##
+
+- name: enable SSH in firewall
+  ufw:
+    rule: allow
+    port: "22"
+  become: true
+
+- name: enable HTTP in firewall
+  ufw:
+    rule: allow
+    port: "80"
+  become: true
+
+- name: enable HTTPS in firewall
+  ufw:
+    rule: allow
+    port: "443"
+  become: true
+
+- name: enable the firewall itself
+  ufw:
+    state: enabled
+  become: true

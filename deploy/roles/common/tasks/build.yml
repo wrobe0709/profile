@@ -1,0 +1,25 @@
+###
+# Build React app
+##
+
+- name: install node modules
+  shell: "npm install --loglevel=error"
+  args:
+    chdir: "{{ app_dir }}"
+
+- name: build React app
+  shell: "npm run build"
+  args:
+    chdir: "{{ app_dir }}"
+
+- name: remove old build folder
+  file:
+    path: "{{ web_serve_dir }}/build"
+    state: absent
+  become: true
+
+- name: move build folder
+  shell: "mv build/ {{ web_serve_dir }}"
+  args:
+    chdir: "{{ app_dir }}"
+  become: true
