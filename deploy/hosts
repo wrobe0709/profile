@@ -1,0 +1,5 @@
+[common]
+209.97.156.233 ansible_python_interpreter=/usr/bin/python3
+
+[init_config]
+209.97.156.233 ansible_python_interpreter=/usr/bin/python3

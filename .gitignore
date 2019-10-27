@@ -1,2 +1,13 @@
-node_modules
+# build
+/node_modules
+/build
+
+# todo
 todo.txt
+
+# deploy
+/keys
+/deploy/group_vars
+/deploy/init.sh
+/deploy/prod_deploy.sh
+/venv
