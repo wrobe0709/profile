@@ -21,19 +21,25 @@ export default class Projects extends React.Component {
               title={projects.profile.title}
               description={projects.profile.description}
               imgUrl={projects.profile.imgUrl}
+              githubUrl={projects.profile.githubUrl}
+              externalLinkUrl={projects.profile.externalLinkUrl}
               technologies={projects.profile.technologies}/>
           </div>
           <div className="projects-row">
-            <Project
-              title={projects.paperFlowers.title}
-              description={projects.paperFlowers.description}
-              imgUrl={projects.paperFlowers.imgUrl}
-              technologies={projects.paperFlowers.technologies}/>
-            <Project
-              title={projects.pedalPi.title}
-              description={projects.pedalPi.description}
-              imgUrl={projects.pedalPi.imgUrl}
-              technologies={projects.pedalPi.technologies}/>
+            {!projects.paperFlowers.hidden && (
+              <Project
+                title={projects.paperFlowers.title}
+                description={projects.paperFlowers.description}
+                imgUrl={projects.paperFlowers.imgUrl}
+                technologies={projects.paperFlowers.technologies}/>
+            )}
+            {!projects.paperFlowers.hidden && (
+              <Project
+                title={projects.pedalPi.title}
+                description={projects.pedalPi.description}
+                imgUrl={projects.pedalPi.imgUrl}
+                technologies={projects.pedalPi.technologies}/>
+            )}
           </div>
         </div>
       </div>

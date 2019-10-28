@@ -3,7 +3,7 @@
     "title": "The Holstein House",
     "description": "Website for small family business.",
     "imgUrl": "/img/barn.jpg",
-    "githubUrl": "https://github.com/wrobe0709/holstein",
+    "githubUrl": "https://github.com/wrobe0709/holstein-house",
     "externalLinkUrl": "https://www.theholsteinhouse.com/",
     "technologies": ["React", "Bootstrap", "Ansible"]
   },
@@ -11,8 +11,8 @@
     "title": "Profile",
     "description": "Profile site.",
     "imgUrl": "/img/profile.jpg",
-    "githubUrl": "",
-    "externalLinkUrl": "",
+    "githubUrl": "https://github.com/wrobe0709/profile",
+    "externalLinkUrl": "https://www.wmerobertson.me/",
     "technologies": ["React", "Bootstrap", "Ansible"]
   },
   "paperFlowers": {
@@ -21,7 +21,8 @@
     "imgUrl": "/img/paper-flowers.jpg",
     "githubUrl": "",
     "externalLinkUrl": "",
-    "technologies": ["Python", "PostgreSQL", "React", "Bootstrap", "Ansible"]
+    "technologies": ["Python", "PostgreSQL", "React", "Bootstrap", "Ansible"],
+    "hidden": true
   },
   "pedalPi": {
     "title": "Pedal Pi",
@@ -29,6 +30,7 @@
     "imgUrl": "/img/pedal-pi.jpg",
     "githubUrl": "",
     "externalLinkUrl": "",
-    "technologies": ["C", "Raspberry Pi"]
+    "technologies": ["C", "Raspberry Pi"],
+    "hidden": true
   }
 }
